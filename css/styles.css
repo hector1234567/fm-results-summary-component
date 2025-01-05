@@ -21,7 +21,7 @@ html {
 
 body {
   font-family: Hanken Grotesk;
-  background-color: hsl(220, 100%, 96%);
+  background-color: hsl(0, 0%, 100%);
   min-height: 100dvh;
   display: flex;
   justify-content: center;
