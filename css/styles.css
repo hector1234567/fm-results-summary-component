@@ -21,7 +21,7 @@ html {
 
 body {
   font-family: Hanken Grotesk;
-  background-color: hsl(221, 100%, 96%);
+  background-color: hsl(220, 100%, 96%);
   min-height: 100dvh;
   display: flex;
   justify-content: center;
@@ -44,6 +44,7 @@ body {
   border-radius: 3.2rem;
   overflow: hidden;
   background-color: hsl(0, 0%, 100%);
+  box-shadow: 0 3rem 6rem 0 rgba(61, 108, 236, 0.15);
   display: flex;
 }
 @media screen and (max-width: 552px) {
