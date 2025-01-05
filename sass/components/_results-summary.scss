@@ -1,0 +1,118 @@
+.results-summary {
+  width: 73.6rem;
+  border-radius: 3.2rem;
+  overflow: hidden;
+  background-color: $White;
+
+  display: flex;
+
+  @media screen and (max-width: 552px) {
+    flex-direction: column;
+    width: 100%;
+    border-radius: 0;
+  }
+
+  &__result {
+    width: 50%;
+    background-image: linear-gradient(
+      to bottom,
+      $Light-slate-blue,
+      $Light-royal-blue
+    );
+    border-radius: 3.2rem;
+    padding: 3.8rem 5.3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: $White;
+
+    .circle {
+      background-image: linear-gradient(to top, $Persian-blue, $Violet-blue);
+      margin: 3.5rem 0 2.8rem 0;
+    }
+
+    @media screen and (max-width: 552px) {
+      width: auto;
+    }
+
+    @media screen and (max-width: 552px) {
+      border-radius: 0 0 3.2rem 3.2rem;
+    }
+  }
+
+  &__heading {
+    font-size: 2.4rem;
+    font-weight: 600;
+  }
+
+  &__message-title {
+    font-size: 3.2rem;
+    font-weight: 600;
+    color: $White;
+    margin-bottom: 1.4rem;
+  }
+
+  &__message-text {
+    font-size: 1.8rem;
+    font-weight: 300;
+    margin-bottom: 0.9rem;
+  }
+
+  &__summary {
+    color: $Dark-gray-blue;
+    padding: 3.8rem 4rem 4.6rem 4rem;
+    width: 50%;
+
+    @media screen and (max-width: 552px) {
+      width: auto;
+    }
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    margin: 2.8rem 0 4.1rem 0;
+    list-style: none;
+
+    li {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1.8rem 1.6rem;
+      font-size: 1.8rem;
+      border-radius: 1.2rem;
+
+      &.result-red {
+        background-color: rgba($Light-red, 0.07);
+        color: rgba($Light-red, 1);
+      }
+
+      &.result-yellow {
+        background-color: rgba($Orangey-yellow, 0.07);
+        color: rgba($Orangey-yellow, 1);
+      }
+
+      &.result-green {
+        background-color: rgba($Green-teal, 0.07);
+        color: rgba($Green-teal, 1);
+      }
+
+      &.result-blue {
+        background-color: rgba($Cobalt-blue, 0.07);
+        color: rgba($Cobalt-blue, 1);
+      }
+
+      > div {
+        display: flex;
+        align-items: center;
+        gap: 1.2rem;
+      }
+
+      > div:last-child {
+        color: $Dark-gray-blue;
+      }
+    }
+  }
+}

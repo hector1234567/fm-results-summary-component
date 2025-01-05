@@ -1,0 +1,14 @@
+{
+  "name": "results-summary-component",
+  "version": "1.0.0",
+  "description": "![Design preview for the Results summary component coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "compile-sass": "sass sass/main.scss css/styles.css -w"
+  },
+  "author": "Hector B",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.83.1"
+  }
+}
