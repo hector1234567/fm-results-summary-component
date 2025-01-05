@@ -1,6 +1,6 @@
 .results-summary {
   width: 73.6rem;
-  border-radius: 3.2rem;
+  border-radius: 2.5rem;
   overflow: hidden;
   background-color: $White;
   box-shadow: 0 3rem 6rem 0 rgba(#3d6cec, 0.15);
@@ -57,7 +57,7 @@
   &__message-text {
     font-size: 1.8rem;
     font-weight: 300;
-    // margin-bottom: 0.9rem;
+    margin-bottom: 0.9rem;
   }
 
   &__summary {
